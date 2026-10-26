@@ -1,0 +1,5 @@
+{
+  "name": "pi-guard",
+  "owner": { "name": "Valerius Mattfeld" },
+  "plugins": [{ "name": "pi-guard", "source": "./" }]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "pi-guard",
+  "version": "0.1.0",
+  "description": "When auto mode denies a Bash call inside herdr, a Pi agent in a sibling pane gives a second opinion and runs or rejects the command.",
+  "author": { "name": "Valerius Mattfeld" }
+}
