@@ -18,6 +18,10 @@ Outside herdr (`HERDR_ENV` unset) the hook does nothing and the plain denial sta
 
 Answer `y` to add the marketplace, then pick a scope. If you previously wired `pi-guard.sh` by hand in `~/.claude/settings.json`, remove that PermissionDenied entry, or the guard fires twice per denial.
 
+## Setup skill
+
+The plugin ships a `setup` skill. Ask an agent to "set up pi-guard" and it checks herdr, Pi and jq, installs the plugin, removes a hand-wired duplicate hook, and tells you how to verify the first denial.
+
 ## Where it writes
 
 `$TMPDIR/pi-guard/`: `events.jsonl` (raw hook payloads), `<id>.task.md` (the brief Pi gets), `<id>.verdict` (Pi's answer).
